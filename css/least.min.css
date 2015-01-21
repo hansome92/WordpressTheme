@@ -1,0 +1,94 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+
+.gallery-columns-9 section li .gallery_title { display: none !important;}
+.gallery-page .gallery-columns-7 section li .infoLayer, .gallery-page .gallery-columns-8 section li .infoLayer{ top: 6%;}.
+.gallery-page .gallery-columns-4 section li .infoLayer{ top: 28%;}
+.gallery-page .gallery-columns-5 section li .infoLayer{ top: 20%;}
+.gallery-page .gallery-columns-6 section li .infoLayer{ top: 14%;}
+.gallery-page .gallery-columns-9 section li .infoLayer{ top: 30%;}
+.gallery-page section {
+  width: 100%;}
+  
+.gallery-page section li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+	margin-bottom: 10px;
+    /* @group Over */
+    /* @group Description */
+    /* @end *
+    /* @end */ }
+.gallery-page section li:hover .overLayer {
+      background: none repeat scroll 0 0 rgba(20, 20, 20, 0.5); 
+	  display: block;
+	  cursor: text;  }
+.gallery-page section li:hover .infoLayer {  
+      display: block; }
+.gallery-page section li a {
+	 height: 100%;
+	 width:100%;
+     }
+.gallery-page section li img { border: 2px solid #EBEBEB;}
+.gallery-page section li .overLayer {
+      -webkit-transition: opacity 0.3s linear;
+      -moz-transition: opacity 0.3s linear;
+      -ms-transition: opacity 0.3s linear;
+      -o-transition: opacity 0.3s linear;
+      transition: opacity 0.3s linear;
+      position: absolute;
+      text-align: center;
+      top: 0;
+      left: 0;
+      z-index: 4;
+      /* @end */ }
+.gallery-page section li .infoLayer {
+      -webkit-transition: opacity 0.3s linear;
+      -moz-transition: opacity 0.3s linear;
+      -ms-transition: opacity 0.3s linear;
+      -o-transition: opacity 0.3s linear;
+      transition: opacity 0.3s linear;
+      position: absolute;
+      text-align: center;      
+      top: 35%;
+      left: 0;
+      z-index: 4;
+	  display: none;
+      /* @end */ }
+.gallery-page section li .overLayer ul,
+.gallery-page section li .infoLayer ul { }
+.gallery-page section li .overLayer ul li,
+.gallery-page section li .infoLayer ul li {
+          display: block;
+          margin: 0 auto;}
+.gallery-page section li .overLayer ul li.gallery_title,
+.gallery-page section li .infoLayer ul li.gallery_title {
+          padding: 0 0 5px 0; 
+          border-bottom: 2px white solid; }
+.gallery-page section li .overLayer ul li.view-gallery,
+.gallery-page section li .infoLayer ul li.view-gallery {
+            text-transform: lowercase; }
+.gallery-page section li .overLayer ul li h2,
+.gallery-page section li .infoLayer ul li h2 {
+            font-size: 20px; margin-bottom: 5px; color: #FFFFFF;}
+.gallery-page section li .projectInfo {
+      display: none; }
+.infoLayer .view-full{
+	background-image:url(new/zoom-icon.png);
+	background-repeat:no-repeat;
+	background-position:center;	
+	margin-right:10px;
+	
+}
+.infoLayer .view-gallery{	
+	background-image:url(new/link_post_icon.png);
+	background-repeat:no-repeat;
+	background-position:center;	
+}
+.infoLayer .icons{
+	cursor: pointer;
+    display: block;
+    height: 25px;
+    width: 30px;
+}
+
+/* end */

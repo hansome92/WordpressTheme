@@ -1,0 +1,54 @@
+/* CSS Document */
+/*========================================Toggle==============================================*/
+
+h2.active a {
+	color: #918B6A;
+	background-position:0px 0px;
+    display: block;
+    text-decoration: none;
+}
+h2.trigger a:hover { color: #fff; }
+h2.active {background-position: left bottom;} /*--When toggle is triggered, it will shift the image to the bottom to show its "opened" state--*/
+.toggle_container {
+	margin: 0 0 5px;
+	padding: 0;
+	border-top: 1px solid #d6d6d6;
+	background: #f0f0f0;
+	overflow: hidden;
+	font-size: 1.2em;
+	width: 690px;
+	clear: both;
+}
+.toggle_container .block {
+	padding: 20px; /*--Padding of Container--*/
+	}
+
+
+.toggle_contaier .block h3 { color:#737373;}
+.toggle_contaier{  width: 753px !important}
+.toggle_contaier .block{ 
+    background: none repeat scroll 0 0 #F5F5F5;
+    margin: 10px 0;
+    padding: 0 10px;
+    width:690px !important;}
+h2.trigger {
+    background-image: url("images/h2_trigger_a.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+    float: left;
+    font-size: 20px;
+    font-weight: normal;
+    height: 46px;
+    line-height: 46px;
+    margin: 0 0 5px;
+    padding: 0 0 0 50px;
+    width: 660px;
+	border:none!important;
+	cursor:pointer;
+}
+
+h2.trigger a {
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+}
